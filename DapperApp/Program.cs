@@ -2,11 +2,13 @@
 using Infracstructure.Servises;
 var ct = new StudentServise();
 var tch = new TeacherServise();
+var Emp = new EmployeeServise();
 while (true)
 {
     int d;
     System.Console.WriteLine("1: Teachers");
-    System.Console.WriteLine("1: Student");
+    System.Console.WriteLine("2: Student");
+    System.Console.WriteLine("3: Employee");
     d = Convert.ToInt32(Console.ReadLine());
     if (d == 1)
     {
@@ -49,15 +51,18 @@ while (true)
                 tc.salary = Convert.ToInt16(Console.ReadLine());
                 System.Console.WriteLine();
                 tch.Add(tc);
-            }else if(n==3){
+            }
+            else if (n == 3)
+            {
                 int y;
-                y=Convert.ToInt32(Console.ReadLine());
+                y = Convert.ToInt32(Console.ReadLine());
                 tch.Delete(y);
-            }else if(n==4){
-                int y;
-                var t =new Teacher();
+            }
+            else if (n == 4)
+            {
+                var t = new Teacher();
                 System.Console.Write("id: ");
-                y=Convert.ToInt32(Console.ReadLine());
+                t.id = Convert.ToInt32(Console.ReadLine());
                 System.Console.Write("firstname:");
                 t.first_name = Console.ReadLine();
                 System.Console.Write("lastname:");
@@ -69,8 +74,10 @@ while (true)
                 System.Console.Write("salary:");
                 t.salary = Convert.ToInt16(Console.ReadLine());
                 System.Console.WriteLine();
-                tch.Update(y,t);
-            }else if(n==5){
+                tch.Update(t);
+            }
+            else if (n == 5)
+            {
                 break;
             }
         }
@@ -104,7 +111,7 @@ while (true)
             }
             else if (s == 2)
             {
-                string a, b, c;
+             
                 var ct1 = new Students();
                 System.Console.Write("firstname:");
                 ct1.first_name = Console.ReadLine();
@@ -148,5 +155,78 @@ while (true)
             }
 
         }
+    }
+    else if (d == 3)
+    {
+        while (true)
+        {
+            int f;
+            System.Console.WriteLine();
+            System.Console.WriteLine("1 for get employee");
+            System.Console.WriteLine("2 for add employee");
+            System.Console.WriteLine("3 for delete employee");
+            System.Console.WriteLine("4 for update employee");
+            System.Console.WriteLine("5 for exet program");
+            System.Console.WriteLine();
+            f = Convert.ToInt32(Console.ReadLine());
+            if (f == 1)
+            {
+                string t;
+                t = Console.ReadLine();
+                var emp = Emp.Get(t);
+                    System.Console.WriteLine("Id-------------firstname-----------lastname---------age----------salary");
+                foreach (var m in emp)
+                {
+                System.Console.WriteLine($"{m.id}          {m.first_name}          {m.last_name}           {m.age}          {m.salary}");
+                }
+            }else if(f==2){
+                var emp= new Employee();
+                System.Console.Write("firstname:");
+                emp.first_name = Console.ReadLine();
+                System.Console.Write("lastname:");
+                emp.last_name = Console.ReadLine();
+                System.Console.Write("age:");
+                emp.age = Convert.ToInt16(Console.ReadLine());
+                System.Console.Write("salary:");
+                emp.salary=Convert.ToInt16(Console.ReadLine());
+                System.Console.WriteLine();
+                Emp.Add(emp);
+                System.Console.WriteLine();
+             }else if(f==4){
+               
+                var emp= new Employee();
+                System.Console.Write("id:");
+                emp.id = Convert.ToInt16(Console.ReadLine());
+                System.Console.Write("firstname:");
+                emp.first_name = Console.ReadLine();
+                System.Console.Write("lastname:");
+                emp.last_name = Console.ReadLine();
+                System.Console.Write("age:");
+                emp.age = Convert.ToInt16(Console.ReadLine());
+                System.Console.Write("salary:");
+                emp.salary=Convert.ToInt16(Console.ReadLine());
+                System.Console.WriteLine();
+                Emp.Update(emp);
+                }else if(f==3){
+                    int y;
+                    y=Convert.ToInt16(Console.ReadLine());
+                    Emp.Delete(y);
+                }
+
+                else if(f==5){
+                int t; 
+                t=Convert.ToInt16(Console.ReadLine());
+
+                var w=Emp.GetById(t);
+                foreach (var m in w )
+                {
+                System.Console.WriteLine($"{m.id}       {m.first_name}         {m.last_name}       {m.age}         {m.salary}");
+                    
+                }
+             }else if(f==6){
+                    break;
+                }
+        }
+
     }
 }

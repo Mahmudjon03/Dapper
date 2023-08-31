@@ -193,11 +193,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Dapperapp\\DapperApp.csproj",
+      "projectUniqueName": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj",
       "projectName": "DapperApp",
-      "projectPath": "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Dapperapp\\DapperApp.csproj",
+      "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj",
       "packagesPath": "C:\\Users\\hhp\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Dapperapp\\obj\\",
+      "outputPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hhp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -214,11 +214,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {
-              "projectPath": "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj"
+            "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj"
             },
-            "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj": {
-              "projectPath": "c:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj"
+            "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj": {
+              "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj"
             }
           }
         }

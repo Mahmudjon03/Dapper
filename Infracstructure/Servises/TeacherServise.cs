@@ -1,14 +1,10 @@
 namespace Infracstructure.Servises;
-
 using Dapper;
 using Npgsql;
 using Domain.Models;
-using System;
-
-
 public class TeacherServise
 {
-    string constr = "Server=localhost;Port=5432;Database=DapperDemo;User Id=postgres;Password=mahmud04;";
+    string constr = " Server=localhost;Port=5432;Database=DapperDemo;User Id=postgres;Password=mahmud04;";
 
     public List<Teacher> GetTeacher(string name)
     {
@@ -40,29 +36,39 @@ public class TeacherServise
         }
 
     }
-    public void Delete(int a){
-     using (var conn=new NpgsqlConnection(constr)){
-        string sql = $"delete from Teachers where id={a}";
-         var f= conn.Execute(sql);
-         if(f==1){
-            System.Console.WriteLine("Teacher remove sucessfully");
-         }else{
-         System.Console.WriteLine("Error");
-         }
-    }
+    public void Delete(int a)
+    {
+        using (var conn = new NpgsqlConnection(constr))
+        {
+            string sql = $"delete from Teachers where id={a}";
+            var f = conn.Execute(sql);
+            if (f == 1)
+            {
+                System.Console.WriteLine("Teacher remove sucessfully");
+            }
+            else
+            {
+                System.Console.WriteLine("Error");
+            }
+        }
 
-}
-public void Update(int w,Teacher t){
-     using (var conn=new NpgsqlConnection(constr)){
-        string sql = $"  update Teachers set first_name ='{t.first_name}',last_name=' {t.last_name}',specialty='{t.specialty}',"+
-        $"age={t.age},salary={t.salary} where id={w}";
-         var f= conn.Execute(sql);
-         if(f==1){
-            System.Console.WriteLine("Update  sucessfully");
-         }else{
-         System.Console.WriteLine("Error");
-         }
-}    
-}
+    }
+    public void Update(Teacher t)
+    {
+        using (var conn = new NpgsqlConnection(constr))
+        {
+            string sql = $"  update Teachers set first_name ='{t.first_name}',last_name=' {t.last_name}',specialty='{t.specialty}'," +
+            $"age={t.age},salary={t.salary} where id={t.id}";
+            var f = conn.Execute(sql);
+            if (f == 1)
+            {
+                System.Console.WriteLine("Update  sucessfully");
+            }
+            else
+            {
+                System.Console.WriteLine("Error");
+            }
+        }
+    }
 }
 
