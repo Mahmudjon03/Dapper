@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E0+krTJsGbY8IfofzB2ZKKvQwQksQHK7dmwl7okUUXBTbFJiXWbHxmSK8JRyBKk5Log6bLjzAEw0vpA7zb5O6A==",
+  "dgSpecHash": "CYYDqug38cAUbUs4G+L2z5ffYIQMwQemihnjzUQ9b5JXIfFfxCJE/NZAsHVDWvbrAdZSTSdfmwGIPdL6v2+uLw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

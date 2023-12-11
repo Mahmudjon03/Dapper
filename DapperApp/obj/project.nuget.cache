@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "rFUz7RpOxbpj0ii/DfxQlDZ0eDddG7gHe7Y24WRBCNd9nzgEreNqjDUUGpQDpVcVMsb8vnqoE8E1F0a7KLOcfw==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hhp\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
-    "C:\\Users\\hhp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\hhp\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "sn3Wxz2ygomFyHo98r3rWeVoGZobz+txsC7eoI7wmC8JSkxPQuVIXCfHu0RjGr60Wpp3nyX+vSEmmQkqrq0vRw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hp\\Documents\\Dapper\\Dapperapp\\DapperApp.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Npgsql\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/npgsql/index.json\".",
+      "libraryId": "Npgsql"
+    }
+  ]
 }

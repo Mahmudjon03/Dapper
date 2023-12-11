@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj": {}
+    "C:\\Users\\hp\\Documents\\Dapper\\Dapperapp\\DapperApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj": {
+    "C:\\Users\\hp\\Documents\\Dapper\\Dapperapp\\DapperApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\Dapper\\Dapperapp\\DapperApp.csproj",
         "projectName": "DapperApp",
-        "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\DapperApp.csproj",
-        "packagesPath": "C:\\Users\\hhp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\dapperapp\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\Dapperapp\\DapperApp.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\Dapper\\Dapperapp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj"
+              "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj": {
-                "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj"
+              "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\Infracstructure.csproj": {
+                "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\Infracstructure.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {
+    "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\hhp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -117,21 +117,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj": {
+    "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\Infracstructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\Infracstructure.csproj",
         "projectName": "Infracstructure",
-        "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj",
-        "packagesPath": "C:\\Users\\hhp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\Infracstructure.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -145,8 +145,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj"
+              "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj"
               }
             }
           }
@@ -186,7 +186,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

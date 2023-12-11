@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {}
+    "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj": {
+    "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\hhp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Documents\\Dapper\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\hhp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

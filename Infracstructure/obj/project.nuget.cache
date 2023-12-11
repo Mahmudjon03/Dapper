@@ -1,12 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "k05txtRo3qHHT9grbTKV6IJFyzLpnbda+BIDWtC1fF4f3J9Sn/H+X8UGrq5c5Jn4Kh8BHYctnoXA3zM8yXcGXA==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\hhp\\Desktop\\c# course\\Dapper\\infracstructure\\Infracstructure.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\hhp\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
-    "C:\\Users\\hhp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
-    "C:\\Users\\hhp\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512"
-  ],
-  "logs": []
+  "dgSpecHash": "3NzeIUsIpUeiAnI+C9dvEkcytVIzucE+W2oiZONH5klgvBjQg+1X3IA4EX7fvCDgzGlRUeX97fvQAMIoKN2RhQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hp\\Documents\\Dapper\\infracstructure\\Infracstructure.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "Не удалось скачать пакет \"Npgsql.7.0.4\" из \"https://api.nuget.org/v3-flatcontainer/npgsql/7.0.4/npgsql.7.0.4.nupkg\".\r\nПроизошла ошибка при отправке запроса.\r\n  Невозможно разрешить удаленное имя: 'api.nuget.org'"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Не удалось извлечь данные о \"Npgsql\" из удаленного источника \"https://api.nuget.org/v3-flatcontainer/npgsql/index.json\".",
+      "libraryId": "Npgsql"
+    }
+  ]
 }
