@@ -7,12 +7,8 @@ namespace Infracstructure.Servises;
 
 public class EmployeeServise
 {
-    class pers
-    {
-
-        public int Id { get; set; }
-    }
-    string constr="Server=localhost;Port=5432;Database=DapperDemo;User Id=postgres;Password=mahmud04;";
+   
+   string constr="Server=localhost;Port=5432;Database=DapperDemo;User Id=postgres;Password=12345;";
     public List<Employee>  Get(string t){
     using ( var con =new NpgsqlConnection(constr))
     {
